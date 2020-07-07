@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="user1" class="com.upgrad.hirewheels.practice.User" autowire="byName">
+        <property name="user_id" value="1" />
+        <property name="first_name" value="Adityanarayan" />
+        <property name="last_name" value="Tiwari" />
+        <property name="password" value="12345678" />
+        <property name="email" value="adityant17121997@gmail" />
+        <property name="mobile_no" value="9425953556" />
+        <property name="wallet_money" value="100000" />
+        <!--<property name="balanceService" ref="balanceService" />-->
+    </bean>
+
+</beans>
