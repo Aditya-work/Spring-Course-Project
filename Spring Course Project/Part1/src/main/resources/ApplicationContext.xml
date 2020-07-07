@@ -22,7 +22,17 @@
         <property name="email" value="adityant17121997@gmail" />
         <property name="mobile_no" value="9425953556" />
         <property name="wallet_money" value="100000" />
-        <!--<property name="balanceService" ref="balanceService" />-->
     </bean>
+
+    <bean id="user2" class="com.upgrad.hirewheels.practice.User">
+        <property name="user_id" value="2" />
+        <property name="first_name" value="Adi" />
+        <property name="last_name" value="Tiwari" />
+        <property name="password" value="1234567890" />
+        <property name="email" value="adint34@gmail.com" />
+        <property name="mobile_no" value="9273993768" />
+        <property name="wallet_money" value="250000" />
+    </bean>
+
 
 </beans>
