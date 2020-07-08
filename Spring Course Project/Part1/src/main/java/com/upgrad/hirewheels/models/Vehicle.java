@@ -61,14 +61,6 @@ public class Vehicle {
         this.vehicleNumber = vehicleNumber;
     }
 
-    /*public int getVehicleSubcategoryId() {
-        return vehicleSubcategoryId;
-    }
-
-    public void setVehicleSubcategoryId(int vehicleSubcategoryId) {
-        this.vehicleSubcategoryId = vehicleSubcategoryId;
-    }
-*/
     public String getColor() {
         return color;
     }
@@ -90,7 +82,6 @@ public class Vehicle {
     public Vehicle(String vehicleModel, int vehicleNumber, String color, String vehicleImageUrl) {
         this.vehicleModel = vehicleModel;
         this.vehicleNumber = vehicleNumber;
-  //      this.vehicleSubcategoryId = vehicleSubcategoryId;
         this.color = color;
         this.vehicleImageUrl = vehicleImageUrl;
     }
